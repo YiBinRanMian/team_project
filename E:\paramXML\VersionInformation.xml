@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <VersionInformationResponse xmlns="http://ws.cdyne.com/">
+      <VersionInformationResult>
+        <anyType xsi:type="xsd:string">4.6.406</anyType>
+        <anyType xsi:type="xsd:string">Version 4.6.346</anyType>
+        <anyType xsi:type="xsd:string">file:\C:\inetpub\wwwroot\PSaddress\bin</anyType>
+      </VersionInformationResult>
+    </VersionInformationResponse>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <GetCurrenciesResponse xmlns="http://tempuri.org/">
+      <GetCurrenciesResult>
+        <string>AUD</string>
+        <string>BGN</string>
+        <string>BRL</string>
+        <string>CAD</string>
+        <string>CHF</string>
+        <string>CNY</string>
+        <string>CYP</string>
+        <string>CZK</string>
+        <string>DKK</string>
+        <string>EEK</string>
+        <string>EUR</string>
+        <string>GBP</string>
+        <string>HKD</string>
+        <string>HRK</string>
+        <string>HUF</string>
+        <string>IDR</string>
+        <string>ILS</string>
+        <string>INR</string>
+        <string>ISK</string>
+        <string>JPY</string>
+        <string>KRW</string>
+        <string>LTL</string>
+        <string>LVL</string>
+        <string>MTL</string>
+        <string>MXN</string>
+        <string>MYR</string>
+        <string>NOK</string>
+        <string>NZD</string>
+        <string>PHP</string>
+        <string>PLN</string>
+        <string>RON</string>
+        <string>RUB</string>
+        <string>SEK</string>
+        <string>SGD</string>
+        <string>SIT</string>
+        <string>SKK</string>
+        <string>THB</string>
+        <string>TRY</string>
+        <string>USD</string>
+        <string>ZAR</string>
+      </GetCurrenciesResult>
+    </GetCurrenciesResponse>
+  </soap:Body>
+</soap:Envelope>

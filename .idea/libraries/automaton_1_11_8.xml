@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="automaton-1.11-8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jar/automaton-1.11-8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/json-20190722.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/xeger-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/generex-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-arq-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-base-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-cmds-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-core-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-dboe-base-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-dboe-index-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-dboe-storage-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-dboe-trans-data-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-dboe-transaction-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-iri-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-rdfconnection-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-shacl-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-shaded-guava-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-tdb-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jena-tdb2-3.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/slf4j-api-1.7.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/slf4j-log4j12-1.7.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/libthrift-0.12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/collection-0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/commons-cli-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/commons-codec-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/commons-compress-1.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/commons-csv-1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/commons-lang3-3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/httpclient-4.5.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/httpclient-cache-4.5.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/httpcore-4.4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jackson-annotations-2.9.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jackson-core-2.9.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jackson-databind-2.9.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jcl-over-slf4j-1.7.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/json-20171018.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar/jsonld-java-0.12.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mysql-connector-java-8.0.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

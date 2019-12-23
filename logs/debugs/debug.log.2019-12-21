@@ -1,0 +1,80 @@
+2019-12-21 21:44:12  [ main:0 ] - [ DEBUG ]  Add location: LocatorFile
+2019-12-21 21:44:12  [ main:2 ] - [ DEBUG ]  Add location: ClassLoaderLocator
+2019-12-21 21:44:12  [ main:4 ] - [ DEBUG ]  Failed to find configuration: file:location-mapping.rdf;file:location-mapping.n3;file:location-mapping.ttl;file:etc/location-mapping.rdf;file:etc/location-mapping.n3;file:etc/location-mapping.ttl
+2019-12-21 21:44:12  [ main:4 ] - [ DEBUG ]  Add location: LocatorFile
+2019-12-21 21:44:12  [ main:7 ] - [ DEBUG ]  Add location: LocatorURL
+2019-12-21 21:44:12  [ main:7 ] - [ DEBUG ]  Add location: ClassLoaderLocator
+2019-12-21 21:44:12  [ main:11 ] - [ DEBUG ]  Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+2019-12-21 21:44:13  [ main:270 ] - [ DEBUG ]  System architecture: 64 bit
+2019-12-21 21:44:13  [ main:291 ] - [ DEBUG ]  System architecture: 64 bit
+2019-12-21 21:44:13  [ main:450 ] - [ DEBUG ]  [1] GET https://dbpedia.org/sparql?query=PREFIX++geo%3A++%3Chttp%3A%2F%2Fwww.georss.org%2Fgeorss%2F%3E%0APREFIX++res%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++ont%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++prop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0APREFIX++skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++category%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCategory%3A%3E%0A%0ASELECT++%3Fy%0AWHERE%0A++%7B+%3Fx++ont%3AmobileCode++%3Fy+%7D%0ALIMIT+++1%0A
+2019-12-21 21:44:13  [ main:458 ] - [ DEBUG ]  CookieSpec selected: default
+2019-12-21 21:44:13  [ main:464 ] - [ DEBUG ]  Auth cache not set in the context
+2019-12-21 21:44:13  [ main:465 ] - [ DEBUG ]  Connection request: [route: {s}->https://dbpedia.org:443][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+2019-12-21 21:44:13  [ main:473 ] - [ DEBUG ]  Connection leased: [id: 0][route: {s}->https://dbpedia.org:443][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+2019-12-21 21:44:13  [ main:474 ] - [ DEBUG ]  Opening connection {s}->https://dbpedia.org:443
+2019-12-21 21:44:14  [ main:1684 ] - [ DEBUG ]  Connecting to dbpedia.org/194.109.129.58:443
+2019-12-21 21:44:14  [ main:1685 ] - [ DEBUG ]  Connecting socket to dbpedia.org/194.109.129.58:443 with timeout 0
+2019-12-21 21:44:15  [ main:2154 ] - [ DEBUG ]  Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2019-12-21 21:44:15  [ main:2154 ] - [ DEBUG ]  Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2019-12-21 21:44:15  [ main:2154 ] - [ DEBUG ]  Starting handshake
+2019-12-21 21:44:18  [ main:5748 ] - [ DEBUG ]  Secure session established
+2019-12-21 21:44:18  [ main:5749 ] - [ DEBUG ]   negotiated protocol: TLSv1.2
+2019-12-21 21:44:18  [ main:5749 ] - [ DEBUG ]   negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2019-12-21 21:44:18  [ main:5749 ] - [ DEBUG ]   peer principal: CN=dbpedia.org
+2019-12-21 21:44:18  [ main:5750 ] - [ DEBUG ]   peer alternative names: [dbpedia.org, www.dbpedia.org]
+2019-12-21 21:44:18  [ main:5750 ] - [ DEBUG ]   issuer principal: CN=Let's Encrypt Authority X3, O=Let's Encrypt, C=US
+2019-12-21 21:44:18  [ main:5753 ] - [ DEBUG ]  Connection established 172.27.136.10:58073<->194.109.129.58:443
+2019-12-21 21:44:18  [ main:5753 ] - [ DEBUG ]  Executing request GET /sparql?query=PREFIX++geo%3A++%3Chttp%3A%2F%2Fwww.georss.org%2Fgeorss%2F%3E%0APREFIX++res%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++ont%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++prop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0APREFIX++skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++category%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCategory%3A%3E%0A%0ASELECT++%3Fy%0AWHERE%0A++%7B+%3Fx++ont%3AmobileCode++%3Fy+%7D%0ALIMIT+++1%0A HTTP/1.1
+2019-12-21 21:44:18  [ main:5753 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2019-12-21 21:44:18  [ main:5754 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2019-12-21 21:44:18  [ main:5755 ] - [ DEBUG ]  http-outgoing-0 >> GET /sparql?query=PREFIX++geo%3A++%3Chttp%3A%2F%2Fwww.georss.org%2Fgeorss%2F%3E%0APREFIX++res%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++ont%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++prop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0APREFIX++skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++category%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCategory%3A%3E%0A%0ASELECT++%3Fy%0AWHERE%0A++%7B+%3Fx++ont%3AmobileCode++%3Fy+%7D%0ALIMIT+++1%0A HTTP/1.1
+2019-12-21 21:44:18  [ main:5755 ] - [ DEBUG ]  http-outgoing-0 >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
+2019-12-21 21:44:18  [ main:5755 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-Jena-ARQ/3.13.1
+2019-12-21 21:44:18  [ main:5756 ] - [ DEBUG ]  http-outgoing-0 >> Host: dbpedia.org
+2019-12-21 21:44:18  [ main:5756 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2019-12-21 21:44:18  [ main:5756 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-12-21 21:44:18  [ main:5756 ] - [ DEBUG ]  http-outgoing-0 >> "GET /sparql?query=PREFIX++geo%3A++%3Chttp%3A%2F%2Fwww.georss.org%2Fgeorss%2F%3E%0APREFIX++res%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++ont%3A++%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++prop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0APREFIX++skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++category%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCategory%3A%3E%0A%0ASELECT++%3Fy%0AWHERE%0A++%7B+%3Fx++ont%3AmobileCode++%3Fy+%7D%0ALIMIT+++1%0A HTTP/1.1[\r][\n]"
+2019-12-21 21:44:18  [ main:5756 ] - [ DEBUG ]  http-outgoing-0 >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
+2019-12-21 21:44:18  [ main:5757 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-Jena-ARQ/3.13.1[\r][\n]"
+2019-12-21 21:44:18  [ main:5757 ] - [ DEBUG ]  http-outgoing-0 >> "Host: dbpedia.org[\r][\n]"
+2019-12-21 21:44:18  [ main:5757 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-12-21 21:44:18  [ main:5757 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-12-21 21:44:18  [ main:5757 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2019-12-21 21:44:19  [ main:6239 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-12-21 21:44:19  [ main:6240 ] - [ DEBUG ]  http-outgoing-0 << "Date: Sat, 21 Dec 2019 13:43:19 GMT[\r][\n]"
+2019-12-21 21:44:19  [ main:6240 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/sparql-results+json[\r][\n]"
+2019-12-21 21:44:19  [ main:6240 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 112[\r][\n]"
+2019-12-21 21:44:19  [ main:6240 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-12-21 21:44:19  [ main:6240 ] - [ DEBUG ]  http-outgoing-0 << "Server: Virtuoso/07.20.3232 (Linux) x86_64-generic-linux-glibc25  VDB[\r][\n]"
+2019-12-21 21:44:19  [ main:6241 ] - [ DEBUG ]  http-outgoing-0 << "Expires: Sat, 28 Dec 2019 13:43:19 GMT[\r][\n]"
+2019-12-21 21:44:19  [ main:6241 ] - [ DEBUG ]  http-outgoing-0 << "Cache-Control: max-age=604800[\r][\n]"
+2019-12-21 21:44:19  [ main:6241 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-12-21 21:44:19  [ main:6241 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2019-12-21 21:44:19  [ main:6241 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2019-12-21 21:44:19  [ main:6241 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Headers: Depth,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding[\r][\n]"
+2019-12-21 21:44:19  [ main:6241 ] - [ DEBUG ]  http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2019-12-21 21:44:19  [ main:6242 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-12-21 21:44:19  [ main:6242 ] - [ DEBUG ]  http-outgoing-0 << "[\n]"
+2019-12-21 21:44:19  [ main:6242 ] - [ DEBUG ]  http-outgoing-0 << "{ "head": { "link": [], "vars": ["y"] },[\n]"
+2019-12-21 21:44:19  [ main:6242 ] - [ DEBUG ]  http-outgoing-0 << "  "results": { "distinct": false, "ordered": true, "bindings": [ ] } }"
+2019-12-21 21:44:19  [ main:6244 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2019-12-21 21:44:19  [ main:6244 ] - [ DEBUG ]  http-outgoing-0 << Date: Sat, 21 Dec 2019 13:43:19 GMT
+2019-12-21 21:44:19  [ main:6244 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/sparql-results+json
+2019-12-21 21:44:19  [ main:6245 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 112
+2019-12-21 21:44:19  [ main:6245 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2019-12-21 21:44:19  [ main:6245 ] - [ DEBUG ]  http-outgoing-0 << Server: Virtuoso/07.20.3232 (Linux) x86_64-generic-linux-glibc25  VDB
+2019-12-21 21:44:19  [ main:6245 ] - [ DEBUG ]  http-outgoing-0 << Expires: Sat, 28 Dec 2019 13:43:19 GMT
+2019-12-21 21:44:19  [ main:6245 ] - [ DEBUG ]  http-outgoing-0 << Cache-Control: max-age=604800
+2019-12-21 21:44:19  [ main:6245 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-12-21 21:44:19  [ main:6245 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Credentials: true
+2019-12-21 21:44:19  [ main:6246 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2019-12-21 21:44:19  [ main:6246 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Headers: Depth,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept-Encoding
+2019-12-21 21:44:19  [ main:6246 ] - [ DEBUG ]  http-outgoing-0 << Accept-Ranges: bytes
+2019-12-21 21:44:19  [ main:6249 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2019-12-21 21:44:19  [ main:6265 ] - [ DEBUG ]  Connection [id: 0][route: {s}->https://dbpedia.org:443] can be kept alive indefinitely
+2019-12-21 21:44:19  [ main:6265 ] - [ DEBUG ]  http-outgoing-0: set socket timeout to 0
+2019-12-21 21:44:19  [ main:6265 ] - [ DEBUG ]  Connection released: [id: 0][route: {s}->https://dbpedia.org:443][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+2019-12-21 21:49:43  [ main:0 ] - [ INFO ]  generating service object for /Users/harodfinvh/Desktop/y1/docs/webservice/creditRating/bpelContent/2.wsdl
+2019-12-21 21:50:30  [ main:0 ] - [ INFO ]  generating service object for /Users/harodfinvh/Desktop/y1/docs/webservice/creditRating/bpelContent/2.wsdl
+2019-12-21 21:50:30  [ main:64 ] - [ INFO ]  Parameter{minOccurs=0, maxOccurs=1, name='mobileCode', type='string', value='null', order_of_seq=1, types=null, simpleType=null}

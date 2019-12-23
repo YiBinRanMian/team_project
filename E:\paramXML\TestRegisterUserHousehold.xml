@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <TestRegisterUserHouseholdResponse xmlns="http://www.titantv.com/services/dataservice">
+      <TestRegisterUserHouseholdResult>
+        <ErrorCode>30030</ErrorCode>
+        <ErrorDescription>Invalid uuid</ErrorDescription>
+      </TestRegisterUserHouseholdResult>
+    </TestRegisterUserHouseholdResponse>
+  </soap:Body>
+</soap:Envelope>

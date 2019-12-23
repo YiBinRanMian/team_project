@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <GetMinimalDateResponse xmlns="http://mondor.org/">
+      <GetMinimalDateResult>2008-03-07T00:00:00</GetMinimalDateResult>
+    </GetMinimalDateResponse>
+  </soap:Body>
+</soap:Envelope>
